@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ background-color:#000000;}
+.con{ width:900px; height:850px;  margin:auto; background-color:rgba(255,255,255,0.7);}
+.head{ width:900px; height:225px; margin:auto;}
+.nav{ width:900px; height:43px; margin:auto; background-color: #000000;}
+.nav li{ list-style: none; float: right; font-size: 16px; margin-right: 26px;line-height:43px; }
+.nav li a{ text-decoration: none;color: #fff;font-family:华文楷体;}
+.main{width:900px; height:860px; margin:auto; background:#000000; text-align:center;}
+
+
+.yinyue{width:800px; height:760px; margin:auto; padding:50px;}
+.yinyue h2{ font-size:26px; color:#000;font-family:华文楷体; line-height:58px;}
+.yinyue h3{ font-size:16px; color:#fff; text-align:left; font-family:华文楷体; line-height:28px; padding-top:30px;}
+.yinyue p{ font-size:14px; color:#fff; text-align:left; font-family:华文楷体; text-indent:2em;}
+
+
+.xiangce{width:860px; height:810px; margin:auto; padding:20px;}
+.xiangce h2{ font-size:26px; color:#fff; font-family:华文楷体; line-height:28px; padding-top:10px;}
+
+.xiangcel{width:290px; height:660px; float:left;}
+.xiangcel ul{}
+.xiangcel li{ width:290px; height:70px; list-style-type:none; padding-top:30px; margin-top:20px; background:url("../picture/xiangce1.gif") center no-repeat;}
+.xiangcel  li a{font-size:14px; color:#fff; text-align:center; line-height:38px;font-family:华文楷体; text-decoration:none;}
+.xiangcel  li a:hover{color:#f00; }
+.xiangcer{width:570px; height:660px; padding-top:110px; float:left;}
+
+
+.shipin{width:900px; height:860px; margin:auto; }
+
+.left{ width:280px; height:800px; float:left; text-align:left; padding-top:20px;}
+.left h3{ font-size:14px; color:#fff; text-align:left; padding-left:30px; font-family:华文楷体; line-height:28px; padding-top:30px;}
+.left p{ font-size:14px; color:#fff; text-align:left;padding-left:30px; font-family:华文楷体; text-indent:2em;}
+
+.right{ width:610px; height:800px; overflow:hidden; float:right; text-align:right; padding-top:20px; overflow:hidden;}
+.right h2{ font-size:24px; color:#fff; font-family:华文楷体; line-height:228px; text-align:center; padding-top:30px;}
+.right h3{ font-size:18px; color:#fff; font-family:华文楷体; line-height:38px; text-align:left; }
+.right p{ font-size:14px; color:#fff; font-family:华文楷体; line-height:26px; text-align:left;   }
+
+.index_right{ width:610px; height:800px; overflow:hidden; float:right; text-align:right; padding-top:20px; overflow:hidden;}
+.index_right h3{ font-size:18px; color:#fff; font-family:华文楷体; line-height:38px; text-align:left; }
+.index_right p{ font-size:14px; color:#fff; font-family:华文楷体; line-height:22px; text-align:left; text-indent:2em; }
+
+.foot{ width:900px; height:290px; margin:auto;}
